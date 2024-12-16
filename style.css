@@ -1,0 +1,559 @@
+*{
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
+}
+html , body {
+     height: 100%;
+     width: 100%;
+}
+.master{
+     width: 100vw;
+     height: 100vh;
+}
+.master > nav{
+     width: 100vw;
+     height: 8vh;
+     display: flex;
+     justify-content: space-between;
+     gap: 3rem;
+     align-items: center;
+     padding: 1rem 5rem;
+}
+.master > nav > div{
+     width:18vw;
+     display: flex;
+     gap: 1.5rem;
+
+}
+.master > nav > div > a{
+     text-decoration: none;
+     font-size: 1.2rem;
+     font-weight: 600;
+     color: black;
+
+}
+.master > nav > div > button{
+     padding: 0.5rem 1rem;
+     border: 1px solid black;
+     border-radius:0.5rem ;
+     font-weight: 700;
+
+}
+.master > nav > div > .green{
+     background-color: #182815;
+     color: white;
+}
+.master >.page1{
+     width: 100vw;
+     height: 100vh;
+}
+.master > .page1 >.content{
+     padding: 5rem 5rem;
+     text-align: center;
+}
+.master > .page1 >.content>h1{
+     font-size: 3rem;
+     font-weight: 600;
+     margin: 0.2rem;
+}
+.master > .page1 >.content >p{
+     font-size: 1rem;
+     font-weight: 400;
+     margin: 1rem;
+}
+.master > .page1 >.content >button{
+     padding: 0.5rem 1rem;
+     border: 1px solid black;
+     border-radius:0.5rem ;
+     font-weight: 700;
+     background-color: #182815;
+     color: white;   
+}
+.master > .page1 >.page_img {
+     width: 100vw;
+     height: 100vh;
+     margin-top:-8rem ;
+     margin-left:8rem ;
+}
+.master > .page1 >.page_img >div{
+     width: 100vw;
+     height: 100vh;
+     margin: 0rem 2rem;
+     width: 100vw;
+    display: flex; 
+    gap: 1rem;
+}
+.master > .page1 >.page_img >div>.left{
+     width: 15vw;
+     height:70vh;
+}
+.master > .page1 >.page_img >div>.left > .top{
+     width: 15vw;
+     height: 40vh;
+     border-radius: 2rem;
+     background-color: #858984;
+     background: url(https://plus.unsplash.com/premium_photo-1682092588009-51eacb1d03ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9vciUyMGdpcmx8ZW58MHx8MHx8fDA%3D);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.9;
+}
+
+.master > .page1 >.page_img >div>.left > .top >h1{
+     padding: 4rem 4rem 0rem 1rem;
+     color: white;
+     font-weight: 800;
+     text-shadow: 1rem 1rem 1rem black;
+}
+.master > .page1 >.page_img >div>.left > .bottom{
+     width: 15vw;
+     height: 25vh;
+     margin-top: 1rem;
+     border-radius: 2rem;
+     background-color: #448269;
+     color: white;
+     padding: 2rem;
+}
+
+.master > .page1 >.page_img >div>.left > .bottom>h1{
+     font-size: 3rem;
+}
+.master > .page1 >.page_img >div>.middle_left{
+     width: 15vw;
+     height: 55vh;
+     border-radius: 2rem;
+     margin-top: 5.6rem;
+     background-color: #858984;
+     background: url(https://images.unsplash.com/photo-1508204841652-6c134d77ce0c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 1;
+     padding: 1.8rem;
+     color: white;
+}
+.master > .page1 >.page_img >div>.middle_left >h1{
+     font-size: 4rem;
+     padding-top: 6rem;
+     text-shadow: 3rem 3rem 2rem black;
+}
+.master > .page1 >.page_img >div>.middle_left>h5{
+     font-size: 1.3rem;
+     text-shadow: 3rem 3rem 5rem black;
+}
+.master > .page1 >.page_img >div>.middle{
+     width: 15vw;
+     height: 40vh;
+     margin-top: 12.1rem;
+     border-radius: 2rem;
+     background-color: #7E8BB0;
+     color: white;
+     padding: 2rem;
+}
+.master > .page1 >.page_img >div>.middle >h5{
+     font-size: 1.7rem;
+     padding-top: 0.1rem;
+     margin:1rem 0rem;
+     font-weight: 400;
+}
+.master > .page1 >.page_img >div>.middle >button{
+     padding: 0.5rem 1rem;
+     border: 1px solid black;
+     border-radius:0.5rem ;
+     font-weight: 700;
+     background-color: #182815;
+     color: white;   
+}
+.master > .page1 >.page_img >div>.middle_right{
+     width: 15vw;
+     height: 55vh;
+     border-radius: 2rem;
+     margin-top: 5.6rem;
+     background-color: #858984;
+     background: url(https://images.unsplash.com/photo-1542810634-71277d95dcbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 1;
+     padding: 1.8rem;
+     color: white;
+}
+
+.master > .page1 >.page_img >div>.middle_right>h5{
+     margin-top: 17rem;
+     font-size: 1.4rem;
+     font-weight: 800;
+     text-shadow: 3rem 3rem 2rem black;
+}
+
+
+.master > .page1 >.page_img >div>.right > .top{
+     width: 15vw;
+     height: 40vh;
+     border-radius: 2rem;
+     background-color: #063F2E;
+  
+}
+
+.master > .page1 >.page_img >div>.right > .top >h1{
+     padding: 4rem 4rem 0rem 7rem;
+     color: white;
+     font-size: 2rem;
+     font-weight: 800;
+}
+.master > .page1 >.page_img >div>.right > .top >h5{
+     padding: 0.5rem;
+     color: white;
+     text-align: right;
+     font-weight: 800;
+     text-shadow: 1rem 1rem 1rem black;
+}
+.master > .page1 >.page_img >div>.right > .bottom{
+     width: 15vw;
+     height: 25vh;
+     margin-top: 1rem;
+     border-radius: 2rem;
+     background: url(https://plus.unsplash.com/premium_photo-1664442782488-6c97b3cbcc61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ1fHx8ZW58MHx8fHx8);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 1;
+     padding: 1.8rem;
+     color: white;
+}
+
+.master > .page1 >.page_img >div>.right> .bottom>h5{
+     margin-top: 4rem;
+     font-size: 2rem;
+}
+.master > .page2{
+     width: 100vw;
+     height: 100vh;
+     margin: 9rem;
+     display: flex;
+     justify-content: space-between;
+     gap: 5rem;
+}
+.master > .page2 > .left{
+     width: 35vw;
+     height: 80vh;
+}
+.master > .page2 > .left >h6{
+     font-size: 0.8rem;
+     color: #063F2E;
+     font-weight: 900;
+     margin: 0.8rem 0rem;
+}
+.master > .page2 > .left >h2{
+     font-size: 2.5rem;
+     color: black;
+     font-weight: 900;
+     margin: 0.8rem 0rem;    
+}
+.master > .page2 > .left >p{
+     font-size: 1rem;
+     color: black;
+     font-weight: 100;
+     margin:1rem 0rem;  
+     display: flex; 
+
+}
+.master > .page2 > .left >div{
+     display: flex;
+    
+}
+.master > .page2 > .left >div >div{
+     width: 100vw;
+     height: 40vh;
+}
+.master > .page2 > .left >div >div>div{
+     margin: 1rem 0rem;
+}
+.master > .page2 > .left >div >div>div >h2{
+     font-size: 2rem;
+     line-height:1.7;
+     font-weight: 800;
+}
+.master > .page2 > .left >div >div>div >p{
+     font-size: 1rem;
+     font-weight: 100;
+}
+.master > .page2 > .right{
+     width: 100vw;
+     height: 15vh;
+}
+.master > .page2 > .right>.top{
+     width: 35rem;
+     margin: 2rem;
+     display: flex;
+     gap: 2rem;
+     border: 1px solid rgb(120, 119, 119);
+     border-radius: 1rem;
+     padding: 1rem 2rem;
+     align-items: center;
+}
+.master > .page2 > .right>.middle{
+     width: 35rem;
+     margin: 2rem;
+     display: flex;
+     gap: 2rem;
+     border: 1px solid rgb(134, 133, 133);
+     border-radius: 1rem;
+     padding: 1rem 2rem;
+     align-items: center;
+     margin-left:5rem;
+}
+.master > .page2 > .right>.bottom{
+     width: 35rem;
+     margin: 2rem;
+     display: flex;
+     gap: 2rem;
+     border: 1px solid rgb(131, 130, 130);
+     border-radius: 1rem;
+     padding: 1rem 2rem;
+     align-items: center;
+     margin-left:10rem;
+
+}
+.master > .page2 > .right>div >h1{
+     border: 1px solid ;
+     padding: 0.1rem 0.7rem;
+     border-radius: 100%;
+     background-color: #484B89;
+     color: white;
+}
+
+.master > .page2 > .right>div >h2{
+     font-size: 2rem;
+     border: 1px solid ;
+     padding: 0.1rem 0.7rem;
+     border-radius: 100%;
+     background-color: #F1C551;
+     color: white;
+}
+.master > .page2 > .right>div >h3{
+     font-size: 2.1rem;
+     border: 1px solid ;
+     padding: 0.1rem 0.7rem;
+     border-radius: 100%;
+     background-color: #E45E3E;
+     color: white;
+}
+.master > .page2 > .right>div >div >h4{
+     font-size: 1.3rem;
+     line-height: 1.4;
+}
+.master > .page2 > .right>div >div >p{
+     font-size: 0.8rem;
+}
+.master > .page2 > .right>div >div >a{
+     font-size: 1rem;
+     color: #E97C61;
+     
+}
+
+.master > .page3 {
+     width: 100vw;
+     height: 100vh;
+
+}
+.master > .page3 >div {
+     width: 79vw;
+     height: 80vh;
+     background-color: #3F5528;
+     border-radius: 3rem;
+     padding: 3rem;
+     color: white;
+     margin: -15rem 10rem;
+}
+.master > .page3 >div >h1{
+     text-align: center;
+     font-size: 2rem;
+     font-weight: 800;
+     
+}
+.master > .page3 >div >p{
+     text-align: center;
+     font-size: 1rem;
+     font-weight: 200;
+}
+.master > .page3 >div >div{
+     margin-top: 5rem;
+     display: flex;
+     justify-content: space-between;
+     gap: 5rem;
+}
+.master > .page3 >div >div >div >h4{
+     font-size: 1.5rem;
+     margin: 1rem 0rem;
+}
+.master > .page3 >div >div >div >p{
+     font-size: 0.9rem;
+     margin: 1rem 0rem;
+     text-align: center;
+}
+.master > .page3 >div >div >div >img{
+     margin: 1rem 4rem;
+}
+.master> .page4{
+     width: 100vw;
+     height: 100vh;
+     position: absolute;
+}
+.master > .page4 > div{
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     gap: 1rem;
+}
+.master > .page4 > div>.left{
+     width: 18vw;
+    height: 50vh; 
+
+}
+.master > .page4 > div>.left>.top{
+    height: 50vh; 
+   width: 18vw;
+}
+.master > .page4 > div>.left>.top>img{
+     width: 18vw;
+     height: 21rem;
+     object-fit: cover;
+     border-radius: 2rem;
+}
+.master > .page4 > div>.left>.bottom{
+   width: 18vw;
+   height: 21vh;
+   background-color:#5A8083;
+   border-radius: 2rem;
+   
+}
+.master > .page4 > div>.left_middle{
+     width: 20vw;
+     height: 100vh;
+}
+.master > .page4 > div>.left_middle>img{
+     height: 71vh;
+     width: 20vw;
+     border-radius: 2rem;
+     object-fit: cover;
+}
+.master > .page4 > div>.middle{
+     width: 12vw;
+     height: 71vh;
+}
+.master > .page4 > div>.middle >img{
+     width: 12vw;
+     height: 71vh;
+     border-radius: 2rem;
+     object-fit: cover;
+}
+.master > .page4 > div>.right_middle{
+     width: 17vw;
+     height: 100vh;
+}
+.master > .page4 > div>.right_middle>img{
+     height: 71vh;
+     width: 17vw;
+     border-radius: 2rem;
+     object-fit: cover;
+}
+
+.master > .page4 > div>.right{
+     width: 15vw;
+     height: 71vh;
+
+}
+.master > .page4 > div>.right>.top{
+   width: 15vw;
+   height: 71vh;
+   margin-bottom: 1rem;
+}
+.master > .page4 > div>.right>.bottom>img{
+     width: 18vw;
+     height: 17rem;
+     object-fit: cover;
+     border-radius: 2rem;
+}
+.master > .page4 > div>.right>.top{
+   width: 18vw;
+   height: 30vh;
+   background-color:#E0A4C4;
+   border-radius: 2rem;
+}
+.master > .page5{
+     width: 30vw;
+     height: 30vh;
+     background-color: rgb(217, 222, 214,0.8);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     padding: 3rem;
+     margin: 0rem 25rem;
+     border-radius: 2rem;
+     position: relative;
+     top: 10rem;
+     left: 5rem;
+}
+.master > .page5 > h2{
+     font-size: 1.1rem;
+     padding: 0rem 2rem;
+     line-height: 1;
+}
+.master > .page5 > button{
+     padding: 1rem 2rem;
+     margin: 1.5rem;
+     background-color: black;
+     color: white;
+}
+.master > .page6{
+     width: 80vw;
+     height: 70vh;
+     margin: 24rem 0rem 0rem 9rem;
+     background-color: #E9EBE0;
+     padding: 4rem;
+     border-radius: 2rem;
+}
+.master > .page6 >h1{
+     font-size: 2rem;
+     font-weight: 900;
+     line-height: 0;
+     text-align: center;
+     
+}
+.master > .page6 >p{
+     font-size: 1rem;
+     font-weight: 100;
+     line-height: 4;
+     text-align: center;
+     padding-bottom: 1rem;
+}
+.master > .page6 > div{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 10rem;
+}
+.master > .page6 > div >div >h1{
+     font-size: 1.4rem;
+     font-weight: 900;
+     line-height: 1.1;
+     padding-bottom: 1.5rem;
+}
+.master > .page6 > div >div >p{
+     
+     font-size:0.7;
+     font-weight: 100;
+     line-height: 1;
+     color: #3F5528;
+     padding-bottom: 1.5rem;
+     cursor: pointer;
+}
+.master > .page6 > div > div >p:hover{
+     display: inline;
+}
+.master > .page6 > div >div >i{
+     width: 1rem;
+}

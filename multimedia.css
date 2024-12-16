@@ -1,0 +1,295 @@
+@media (max-width:1024px) {
+
+     .master>nav>.link {
+          display: none;
+     }
+.master > .page1 >.content{
+     width: 100vw;
+     height: 20vh;
+}
+.master > .page1 >.page_img {
+     margin-left: 1rem;
+     margin-top:0.2rem ;
+
+}
+     .master>.page1>.content>h1 {
+          font-size: 2rem;
+     }
+
+     .master>.page1>.content>p {
+          font-size: 0.8rem;
+     }
+
+     .master>.page1>.content>button {
+          padding: 0.2rem 0.5rem;
+          border: 1px solid black;
+          border-radius: 0.2rem;
+          font-weight: 400;
+     }
+
+     .master>.page1>.page_img>div {
+          width: 40vw;
+          height: 40vh;
+          margin: 0rem 9.5rem;
+
+     }
+
+     .master>.page1>.page_img>div>.left {
+          width: 15vw;
+          height: 10vh;
+     }
+
+     .master>.page1>.page_img>div>.right {
+          width: 15vw;
+          height: 10vh;
+     }
+
+     .master>.page1>.page_img>div>.middle_left {
+          width: 15vw;
+          height: 30vh;
+     }
+
+     .master>.page1>.page_img>div>.left>.top {
+          width: 15vw;
+          height: 10vh;
+     }
+
+     .master>.page1>.page_img>div>.left>.bottom {
+          width: 15vw;
+          height: 20vh;
+     }
+
+     .master>.page1>.page_img>div>.right>.top {
+          width: 15vw;
+          height: 10vh;
+     }
+
+     .master>.page1>.page_img>div>.right>.bottom {
+          width: 15vw;
+          height: 20vh;
+     }
+
+     .master>.page1>.page_img>div>.left>.top>h1 {
+          font-size: 0.8rem;
+     }
+
+     .master>.page1>.page_img>div>.left>.bottom>h1 {
+          font-size: 2rem;
+     }
+
+     .master>.page1>.page_img>div>.right>.top>h1 {
+          display: none;
+     }
+
+     .master>.page1>.page_img>div>.right>.bottom>h1 {
+          display: none;
+     }
+
+
+
+     .master>.page1>.page_img>div>.middle_left>h1 {
+          font-size: 0.9rem;
+     }
+
+     .master>.page1>.page_img>div>.middle_left>h5 {
+          font-size: 0.5rem;
+     }
+
+     .master>.page1>.page_img>div>.middle {
+          width: 15vw;
+          height: 30vh;
+     }
+
+     .master>.page1>.page_img>div>.middle>h5 {
+          font-size: 1rem;
+     }
+
+     .master>.page1>.page_img>div>.middle_right {
+          width: 15vw;
+          height: 30vh;
+     }
+
+     .master>.page1>.page_img>div>.middle_right>h5 {
+          font-size: 0.5rem;
+     }
+
+     .master>.page1>.page_img>div>.middle>button {
+          padding: 0.2rem 0.5rem;
+          font-weight: 100;
+          font-size: 0.5rem;
+     }
+
+     .master>.page2 {
+          width: 50vw;
+          height: 16vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          margin-bottom: 70rem;
+          margin-top: -25rem;
+     }
+
+     .master>.page2>.left {
+          width: 70vw;
+          height: 100vh;
+          text-align: center;
+          margin-left: 10rem;
+
+     }
+
+     .master>.page2>.right {
+          margin-left: 25rem;
+          margin-top: -15rem;
+
+     }
+
+     .master>.page3 {
+          width: 100vw;
+          height: 50vh;
+     }
+
+     .master>.page3>div {
+          width: 65vw;
+          height: 40vh;
+     }
+
+     .master>.page3>div>h1 {
+          font-size: 1.4rem;
+          font-weight: 500;
+     }
+
+     .master>.page3>div>p {
+
+          font-size: 0.5rem;
+          font-weight: 200;
+     }
+
+     .master>.page3>div>div>div>h4 {
+          font-size: 1.2rem;
+          margin: 1rem 0rem;
+     }
+
+     .master>.page3>div>div>div>p {
+          font-size: 0.7rem;
+          margin: 1rem 0rem;
+          text-align: center;
+     }
+
+     .master>.page3>div>div>div>img {
+          width: 5rem;
+          margin: 1rem 0rem;
+     }
+
+     .master>.page4 {
+          width: 50vw;
+          height: 50vh;
+     }
+
+     .master>.page4>div {
+          width: 100vw;
+          height: 50vh;
+     }
+
+     .master>.page4>div>.left {
+          width: 17vw;
+          height: 25vh;
+
+     }
+
+     .master>.page4>div>.left>.top {
+          height: 25vh;
+          width: 18vw;
+     }
+
+     .master>.page4>div>.left_middle {
+          width: 18vw;
+          height: 46vh;
+     }
+
+     .master>.page4>div>.left_middle>img {
+          height: 46vh;
+          width: 17vw;
+     }
+
+     .master>.page4>div>.middle {
+          width: 17vw;
+          height: 46vh;
+     }
+
+     .master>.page4>div>.middle>img {
+          height: 46vh;
+          width: 17vw;
+     }
+
+     .master>.page4>div>.right_middle {
+          width: 18vw;
+          height: 46vh;
+     }
+
+     .master>.page4>div>.right_middle>img {
+          height: 46vh;
+          width: 15vw;
+     }
+
+     .master>.page4>div>.right {
+          width: 18vw;
+          height: 46vh;
+     }
+
+     .master>.page4>div>.right>.top {
+          width: 18vw;
+          height: 19vh;
+          margin-bottom: 1rem;
+     }
+
+     .master>.page4>div>.right>.bottom>img {
+          width: 18vw;
+          height: 22rem;
+     }
+
+     .master>.page5 {
+          width: 30vw;
+          height: 18vh;
+          position: relative;
+          top: 10rem;
+          left: -1rem;
+     }
+
+     .master>.page5>h2 {
+          font-size: 1rem;
+          padding: 0rem 1rem;
+          line-height: 1;
+     }
+
+     .master>.page5>button {
+          padding: 1rem 0.5rem;
+          margin: 1.5rem;
+          background-color: black;
+          color: white;
+     }
+
+     .master>.page6 {
+          width: 70vw;
+          height: 40vh;
+          margin: 35rem 0rem 0rem 9rem;
+          background-color: #E9EBE0;
+          padding: 4rem;
+          border-radius: 2rem;
+     }
+
+     .master>.page6>div>div>h1 {
+          font-size: 1rem;
+          font-weight: 500;
+
+     }
+
+     .master>.page6>div>div>p {
+
+          font-size: 0.5;
+          font-weight: 100;
+          line-height: 1;
+          cursor: pointer;
+     }
+
+}
