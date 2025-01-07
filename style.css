@@ -33,12 +33,19 @@ html , body {
      color: black;
 
 }
+.master > nav > div > a:hover{
+     text-decoration: overline;
+}
 .master > nav > div > button{
      padding: 0.5rem 1rem;
      border: 1px solid black;
      border-radius:0.5rem ;
      font-weight: 700;
 
+}
+.master > nav > div > button:hover{
+     background-color: white;
+     color: black;
 }
 .master > nav > div > .green{
      background-color: #182815;
@@ -64,11 +71,15 @@ html , body {
 }
 .master > .page1 >.content >button{
      padding: 0.5rem 1rem;
-     border: 1px solid black;
+     border: 2px solid black;
      border-radius:0.5rem ;
      font-weight: 700;
      background-color: #182815;
      color: white;   
+}
+.master > .page1 >.content >button:hover{
+     background-color:white;
+     color: black;
 }
 .master > .page1 >.page_img {
      width: 100vw;
@@ -164,6 +175,10 @@ html , body {
      font-weight: 700;
      background-color: #182815;
      color: white;   
+}
+.master > .page1 >.page_img >div>.middle >button:hover{
+     background-color:transparent;
+     color: black;
 }
 .master > .page1 >.page_img >div>.middle_right{
      width: 15vw;
@@ -507,6 +522,11 @@ html , body {
      margin: 1.5rem;
      background-color: black;
      color: white;
+     font-weight: 800;
+}
+.master > .page5 > button:hover{
+     background-color: transparent;
+     color:black;
 }
 .master > .page6{
      width: 80vw;
