@@ -7,9 +7,13 @@ html , body {
      height: 100%;
      width: 100%;
 }
+body{
+     overflow-x: hidden;
+}
 .master{
      width: 100vw;
      height: 100vh;
+     
 }
 .master > nav{
      width: 100vw;
@@ -243,15 +247,15 @@ html , body {
      font-size: 2rem;
 }
 .master > .page2{
-     width: 100vw;
+     width: 90vw;
      height: 100vh;
-     margin: 9rem;
+     margin: 10rem 8rem;
      display: flex;
      justify-content: space-between;
-     gap: 5rem;
+     gap: 2rem;
 }
 .master > .page2 > .left{
-     width: 35vw;
+     width: 40vw;
      height: 80vh;
 }
 .master > .page2 > .left >h6{
@@ -284,6 +288,7 @@ html , body {
 }
 .master > .page2 > .left >div >div>div{
      margin: 1rem 0rem;
+
 }
 .master > .page2 > .left >div >div>div >h2{
      font-size: 2rem;
@@ -295,11 +300,12 @@ html , body {
      font-weight: 100;
 }
 .master > .page2 > .right{
-     width: 100vw;
-     height: 15vh;
+     width: 50vw;
+     height: 80vh;
+
 }
 .master > .page2 > .right>.top{
-     width: 35rem;
+     width: 30rem;
      margin: 2rem;
      display: flex;
      gap: 2rem;
@@ -309,18 +315,18 @@ html , body {
      align-items: center;
 }
 .master > .page2 > .right>.middle{
-     width: 35rem;
-     margin: 2rem;
+     width: 30rem;
      display: flex;
      gap: 2rem;
      border: 1px solid rgb(134, 133, 133);
      border-radius: 1rem;
      padding: 1rem 2rem;
      align-items: center;
-     margin-left:5rem;
+     margin-left:7rem;
+
 }
 .master > .page2 > .right>.bottom{
-     width: 35rem;
+     width: 30rem;
      margin: 2rem;
      display: flex;
      gap: 2rem;
@@ -328,7 +334,8 @@ html , body {
      border-radius: 1rem;
      padding: 1rem 2rem;
      align-items: center;
-     margin-left:10rem;
+     margin-left:14rem;
+
 
 }
 .master > .page2 > .right>div >h1{
@@ -371,7 +378,6 @@ html , body {
 .master > .page3 {
      width: 100vw;
      height: 100vh;
-
 }
 .master > .page3 >div {
      width: 79vw;
@@ -413,14 +419,15 @@ html , body {
 }
 .master> .page4{
      width: 100vw;
-     height: 100vh;
+     height: 90vh;
      position: absolute;
 }
 .master > .page4 > div{
-     width: 100vw;
-     height: 100vh;
+     width: 99vw;
+     height: 90vh;
      display: flex;
      gap: 1rem;
+     padding: 1rem;
 }
 .master > .page4 > div>.left{
      width: 18vw;
@@ -432,34 +439,34 @@ html , body {
    width: 18vw;
 }
 .master > .page4 > div>.left>.top>img{
-     width: 18vw;
+     width: 17vw;
      height: 21rem;
      object-fit: cover;
      border-radius: 2rem;
 }
 .master > .page4 > div>.left>.bottom{
-   width: 18vw;
+   width: 17vw;
    height: 21vh;
    background-color:#5A8083;
    border-radius: 2rem;
    
 }
 .master > .page4 > div>.left_middle{
-     width: 20vw;
+     width: 18vw;
      height: 100vh;
 }
 .master > .page4 > div>.left_middle>img{
      height: 71vh;
-     width: 20vw;
+     width: 17vw;
      border-radius: 2rem;
      object-fit: cover;
 }
 .master > .page4 > div>.middle{
-     width: 12vw;
+     width: 10vw;
      height: 71vh;
 }
 .master > .page4 > div>.middle >img{
-     width: 12vw;
+     width: 10vw;
      height: 71vh;
      border-radius: 2rem;
      object-fit: cover;
@@ -531,8 +538,8 @@ html , body {
 .master > .page6{
      width: 80vw;
      height: 70vh;
-     margin: 24rem 0rem 0rem 9rem;
-     background-color: #E9EBE0;
+     margin: 30rem 0rem 5rem 9rem;
+     background-color: #e9ebe04b;
      padding: 4rem;
      border-radius: 2rem;
 }

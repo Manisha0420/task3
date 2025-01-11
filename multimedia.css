@@ -1,23 +1,48 @@
 @media (max-width:550px) {
 
+     .master {
+          width: 100vw;
+          height: 100vh;
+     }
+
+     .master>nav {
+          width: 100vw;
+          height: 8vh;
+          justify-content: space-between;
+          padding: 0rem 1rem;
+     }
+
+     .master>nav>div>.green {
+          display: none;
+     }
+
+     .master>nav>div {
+          padding: 0rem;
+     }
+
      .master>nav>.link {
           display: none;
      }
-.master > .page1 >.content{
-     width: 100vw;
-     height: 20vh;
-}
-.master > .page1 >.page_img {
-     margin-left: 1rem;
-     margin-top:0.2rem ;
 
-}
-     .master>.page1>.content>h1 {
-          font-size: 2rem;
+     .master>nav>div>button {
+          padding: 0rem 1rem;
+     }
+
+     .master>.page1 {
+          width: 100vw;
+          height: 100vh;
+          text-align: center;
+     }
+
+     .master>.page1>.content {
+          width: 100vw;
+          height: 40vh;
+          align-items: center;
+          text-align: center;
      }
 
      .master>.page1>.content>p {
-          font-size: 0.8rem;
+          display: none;
      }
 
      .master>.page1>.content>button {
@@ -30,266 +55,292 @@
      .master>.page1>.page_img>div {
           width: 40vw;
           height: 40vh;
-          margin: 0rem 9.5rem;
+          margin: 0rem 9.9rem;
+
+     }
+
+     .master>.page1>.content>h1 {
+          font-size: 2rem;
+          text-align: center;
+     }
+
+     .master>.page1>.page_img {
+          width: 90vw;
+          height: 60vh;
+          text-align: center;
+          margin-left: 0rem;
 
      }
 
      .master>.page1>.page_img>div>.left {
-          width: 15vw;
-          height: 10vh;
-     }
+          text-align: center;
+          margin-left: -8rem;
 
-     .master>.page1>.page_img>div>.right {
-          width: 15vw;
-          height: 10vh;
-     }
-
-     .master>.page1>.page_img>div>.middle_left {
-          width: 15vw;
-          height: 30vh;
      }
 
      .master>.page1>.page_img>div>.left>.top {
-          width: 15vw;
-          height: 10vh;
+          font-size: 0.5rem;
+          padding: 0rem;
      }
 
      .master>.page1>.page_img>div>.left>.bottom {
-          width: 15vw;
-          height: 20vh;
-     }
-
-     .master>.page1>.page_img>div>.right>.top {
-          width: 15vw;
-          height: 10vh;
-     }
-
-     .master>.page1>.page_img>div>.right>.bottom {
-          width: 15vw;
-          height: 20vh;
-     }
-
-     .master>.page1>.page_img>div>.left>.top>h1 {
-          font-size: 0.8rem;
+          padding: 2rem 0rem;
      }
 
      .master>.page1>.page_img>div>.left>.bottom>h1 {
-          font-size: 2rem;
+          font-size: 1rem;
      }
 
-     .master>.page1>.page_img>div>.right>.top>h1 {
-          display: none;
+     .master>.page1>.page_img>div>.left>.bottom>p {
+          font-size: 1rem;
      }
 
-     .master>.page1>.page_img>div>.right>.bottom>h1 {
-          display: none;
+     .master>.page1>.page_img>div>.middle_left {
+          padding: 0rem;
      }
-
-
 
      .master>.page1>.page_img>div>.middle_left>h1 {
-          font-size: 0.9rem;
+          font-size: 1.8rem;
+          padding: 2rem 0rem;
      }
 
      .master>.page1>.page_img>div>.middle_left>h5 {
-          font-size: 0.5rem;
+          font-size: 1rem;
+          text-align: center;
+          padding: 1rem 0.2rem;
      }
 
      .master>.page1>.page_img>div>.middle {
-          width: 15vw;
-          height: 30vh;
+          padding: 0rem;
      }
 
      .master>.page1>.page_img>div>.middle>h5 {
           font-size: 1rem;
+          padding: 3rem 0.2rem;
      }
 
      .master>.page1>.page_img>div>.middle_right {
-          width: 15vw;
-          height: 30vh;
+          padding: 0rem;
+
      }
 
      .master>.page1>.page_img>div>.middle_right>h5 {
-          font-size: 0.5rem;
+          font-size: 1rem;
+          margin: 5rem 0rem;
+     }
+
+     .master>.page1>.page_img>div>.right {
+          padding: 0rem;
+     }
+
+     .master>.page1>.page_img>div>.right>.top>h1 {
+          font-size: 1rem;
+     }
+
+     .master>.page1>.page_img>div>.right>.bottom {
+          padding: 5rem 0rem;
+     }
+
+     .master>.page1>.page_img>div>.right>.bottom>h5 {
+          font-size: 0.8rem;
+          margin: 0rem;
+          padding: 0rem;
      }
 
      .master>.page1>.page_img>div>.middle>button {
-          padding: 0.2rem 0.5rem;
-          font-weight: 100;
-          font-size: 0.5rem;
+          display: none;
      }
 
      .master>.page2 {
-          width: 50vw;
-          height: 16vh;
-          display: flex;
+          width: 100vw;
+          height: 100vh;
+          text-align: center;
           flex-direction: column;
-          align-items: center;
-
-          margin-bottom: 70rem;
-          margin-top: -25rem;
+          margin: 0rem 0rem;
+          justify-content: center;
+          padding: 0rem;
+          gap: 0rem;
      }
 
      .master>.page2>.left {
-          width: 70vw;
-          height: 100vh;
+          width: 100vw;
+          height: 60vh;
+          margin: 0rem 0rem;
           text-align: center;
-          margin-left: 10rem;
+          padding: 0rem 1rem;
+     }
 
+     .master>.page2>.left>p {
+          display: none;
      }
 
      .master>.page2>.right {
-          margin-left: 25rem;
-          margin-top: -15rem;
+          width: 100vw;
+          height: 50vh;
+          padding: 0rem;
+          margin-top: 1rem;
+     }
 
+     .master>.page2>.right>.top {
+          margin: 1rem 0.5rem;
+          text-align: left;
+          padding: 1rem;
+     }
+
+     .master>.page2>.right>.middle {
+          margin: 1rem 0.5rem;
+          text-align: left;
+          padding: 1rem;
+     }
+
+     .master>.page2>.right>.bottom {
+          margin: 1rem 0.5rem;
+          padding: 1rem;
+          text-align: left;
      }
 
      .master>.page3 {
           width: 100vw;
-          height: 50vh;
+          height: 100vh;
+          margin-top: 8rem;
      }
 
      .master>.page3>div {
-          width: 65vw;
-          height: 40vh;
+          width: 85vw;
+          height: 100vh;
+          padding: 0rem;
+          margin: 0rem 4rem;
+          text-align: center;
      }
 
      .master>.page3>div>h1 {
-          font-size: 1.4rem;
-          font-weight: 500;
+          font-size: 1.5rem;
+          padding-top: 3rem;
      }
 
      .master>.page3>div>p {
+          font-size: 0.8rem;
+     }
 
-          font-size: 0.5rem;
-          font-weight: 200;
+     .master>.page3>div>div {
+          flex-direction: column;
+          text-align: center;
+          padding: 4rem;
+          margin: 0rem;
+          gap: 0rem;
      }
 
      .master>.page3>div>div>div>h4 {
           font-size: 1.2rem;
-          margin: 1rem 0rem;
      }
 
      .master>.page3>div>div>div>p {
-          font-size: 0.7rem;
-          margin: 1rem 0rem;
-          text-align: center;
+          font-size: 0.8rem;
      }
 
      .master>.page3>div>div>div>img {
-          width: 5rem;
-          margin: 1rem 0rem;
+          display: none;
      }
 
      .master>.page4 {
-          width: 50vw;
-          height: 50vh;
+          width: 100vw;
+          height: 100vh;
+          margin-top: 3rem;
      }
 
      .master>.page4>div {
-          width: 100vw;
+          width: 95vw;
           height: 50vh;
+          
      }
 
      .master>.page4>div>.left {
-          width: 17vw;
-          height: 25vh;
+          width: 16vw;
+          height: 45vh;
 
      }
 
      .master>.page4>div>.left>.top {
-          height: 25vh;
-          width: 18vw;
+          width: 16vw;
+          height: 32vh;
      }
 
-     .master>.page4>div>.left_middle {
-          width: 18vw;
-          height: 46vh;
+     .master>.page4>div>.left>.top>img {
+          width: 15vw;
+          height: 12rem;
      }
 
-     .master>.page4>div>.left_middle>img {
-          height: 46vh;
-          width: 17vw;
+     .master>.page4>div>.left>.bottom {
+          width: 15vw;
+          height: 12vh;
      }
 
      .master>.page4>div>.middle {
-          width: 17vw;
-          height: 46vh;
+          width: 10vw;
+          height: 32vh;
      }
 
      .master>.page4>div>.middle>img {
-          height: 46vh;
-          width: 17vw;
+          width: 10vw;
+          height: 45vh;
      }
 
-     .master>.page4>div>.right_middle {
-          width: 18vw;
-          height: 46vh;
+
+     .master>.page4>div>.left>.left_middle {
+          width: 16vw;
+          height: 32vh;
+     }
+
+     .master>.page4>div>.left_middle>img {
+          width: 15vw;
+          height: 45vh;
+     }
+     .master>.page4>div>.left>.right_middle {
+          width: 16vw;
+          height: 32vh;
      }
 
      .master>.page4>div>.right_middle>img {
-          height: 46vh;
           width: 15vw;
+          height: 45vh;
      }
 
+     
      .master>.page4>div>.right {
-          width: 18vw;
-          height: 46vh;
+          width: 16vw;
+          height: 45vh;
+
      }
 
-     .master>.page4>div>.right>.top {
-          width: 18vw;
-          height: 19vh;
-          margin-bottom: 1rem;
+     .master>.page4>div>.right>.bottom {
+          width: 15vw;
+          height: 32vh;
      }
 
      .master>.page4>div>.right>.bottom>img {
-          width: 18vw;
-          height: 22rem;
+          width: 15vw;
+          height: 12rem;
      }
 
-     .master>.page5 {
-          width: 30vw;
-          height: 18vh;
-          position: relative;
-          top: 10rem;
-          left: -1rem;
+     .master>.page4>div>.right>.top {
+          width: 15vw;
+          height: 12vh;
      }
-
-     .master>.page5>h2 {
-          font-size: 1rem;
-          padding: 0rem 1rem;
-          line-height: 1;
+     .master > .page5{
+          width: 50vw;
+          height: 20vh;
+          top: 9rem;
+          left: -17rem;
+          padding: 1rem;
      }
-
-     .master>.page5>button {
-          padding: 1rem 0.5rem;
-          margin: 1.5rem;
-          background-color: black;
-          color: white;
+     .master > .page5 >h2{
+          font-size: 0.8rem;
      }
-
-     .master>.page6 {
-          width: 70vw;
-          height: 40vh;
-          margin: 35rem 0rem 0rem 9rem;
-          background-color: #E9EBE0;
-          padding: 4rem;
-          border-radius: 2rem;
+     .master > .page5 >button{
+          padding: 0.5rem 1rem;
+          font-size: 0.5rem;
      }
-
-     .master>.page6>div>div>h1 {
-          font-size: 1rem;
-          font-weight: 500;
-
+     .master > .page6{
+          display: none;
      }
-
-     .master>.page6>div>div>p {
-
-          font-size: 0.5;
-          font-weight: 100;
-          line-height: 1;
-          cursor: pointer;
-     }
-
 }
